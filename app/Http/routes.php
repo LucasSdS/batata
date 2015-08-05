@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('contato', function () {
     return view('contato');
 });
+
+Route::get('quemsomos', function () {
+    return view('quemsomos');
+});
