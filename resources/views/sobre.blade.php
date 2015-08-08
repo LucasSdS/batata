@@ -86,9 +86,8 @@
                 <img class="img-responsive img-border-left" src={{asset("img/slide-2.jpg")}} alt="">
             </div>
             <div class="col-md-6">
-                <p>This is a great place to introduce your company or project and describe what you do.</p>
-                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets.</p>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <p>O site Bom Lugar Viagens foi desenvolvido para proporcionar mais comodidade e conforto quando você ou sua família precisarem viajar.</p>
+                <p>Usar o site é muito simples: assim que se registrar no site, você entrará na aba Viagens e marcar a viagem que mais o interessa. O dono da agência entrará em contato com você para a contratação da viagem.</p>
             </div>
             <div class="clearfix"></div>
         </div>
