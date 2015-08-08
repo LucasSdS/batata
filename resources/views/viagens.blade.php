@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Blog - Business Casual - Start Bootstrap Theme</title>
 
     <!-- Bootstrap Core CSS -->
     <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">
@@ -47,7 +47,7 @@
                 <span class="icon-bar"></span>
             </button>
             <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-            <a class="navbar-brand" href="/">Bom Lugar Viagens</a>
+            <a class="navbar-brand" href="index.html">Bom Lugar Viagens</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -75,51 +75,53 @@
 
     <div class="row">
         <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">Nossos
+                    <strong>Serviços</strong>
+                </h2>
+                <hr>
+            </div>
             <div class="col-lg-12 text-center">
-                <div id="carousel-example-generic" class="carousel slide">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators hidden-xs">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                    </ol>
-
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img class="img-responsive img-full" src={{asset("img/slide-1.jpg")}} alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive img-full" src={{asset("img/slide-2.jpg")}} alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive img-full" src={{asset("img/slide-3.jpg")}} alt="">
-                        </div>
-                    </div>
-
-                    <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-                        <span class="icon-prev"></span>
-                    </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-                        <span class="icon-next"></span>
-                    </a>
-                </div>
-                <h2 class="brand-before">
-                    <small>Welcome To</small>
+                <img class="img-responsive img-border img-full" src={{asset("img/slide-1.jpg")}} alt="">
+                <h2>Post Title
+                    <br>
+                    <small>October 13, 2013</small>
                 </h2>
-                <h1 class="brand-name">Bom Lugar Viagens</h1>
-                <hr class="tagline-divider">
-                <h2>
-                    <small>Por
-                        <strong>João Praieiro</strong>
-                    </small>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+            <div class="col-lg-12 text-center">
+                <img class="img-responsive img-border img-full" src={{asset("img/slide-2.jpg")}} alt="">
+                <h2>Post Title
+                    <br>
+                    <small>October 13, 2013</small>
                 </h2>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+            <div class="col-lg-12 text-center">
+                <img class="img-responsive img-border img-full" src={{asset("img/slide-3.jpg")}} alt="">
+                <h2>Post Title
+                    <br>
+                    <small>October 13, 2013</small>
+                </h2>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+            <div class="col-lg-12 text-center">
+                <ul class="pager">
+                    <li class="previous"><a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next"><a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
-
-    <!-- aqui ficava o div1 e div2 -->
 
 </div>
 <!-- /.container -->
@@ -139,13 +141,6 @@
 
 <!-- Bootstrap Core JavaScript -->
 <script src={{asset("js/bootstrap.min.js")}}></script>
-
-<!-- Script to Activate the Carousel -->
-<script>
-    $('.carousel').carousel({
-        interval: 5000 //changes the speed
-    })
-</script>
 
 </body>
 

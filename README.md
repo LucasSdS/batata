@@ -1,17 +1,27 @@
-# Bom Lugar Viagens - Projeto
+## Laravel PHP Framework
 
-**O que é?**
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-  O site Bom Lugar Viagens tem como objetivo que a empresa entre em contato com o usuário interessado em reservar uma viagem. 
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
 
-**Como foi feito?**
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
-  Desenvolvido pela EJCM usando as tecnologias: HTML 5.0, CSS3, PHP5.0 e Javascript 1.8
+## Official Documentation
 
-**Encontrou algum Bug?**
+Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
 
-  Por favor entre em Contato com a Equipe de Projetos e Desenvolvimento pelo email: equipe.ped@ejcm.br
+## Contributing
 
-**Contato**
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
 
-  Se você quer entrar em contato com a EJCM, ligue para: (21) 3938-3336 ou envie e-mail para: contato@ejcm.com.br
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+
+### License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)

@@ -18,3 +18,12 @@ Route::get('/', function () {
 Route::get('contato', function () {
     return view('contato');
 });
+
+Route::get('viagens', function () {
+    return view('viagens');
+});
+
+Route::get('sobre', function () {
+    return view('sobre');
+});
+
