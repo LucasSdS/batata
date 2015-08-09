@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Blog - Business Casual - Start Bootstrap Theme</title>
+    <title>Viagens - Bom Lugar Viagens</title>
 
     <!-- Bootstrap Core CSS -->
     <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">

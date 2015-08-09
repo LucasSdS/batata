@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Business Casual - Start Bootstrap Theme</title>
+    <title>Página Inicial - Bom Lugar Viagens</title>
 
     <!-- Bootstrap Core CSS -->
     <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">
@@ -38,7 +38,7 @@
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
+        <!-- Menu mobile -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -50,9 +50,9 @@
             <a class="navbar-brand" href="/">Bom Lugar Viagens</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li>
+                <li> <!-- Colocar as rows, começar da menor -->
                     <a href="{{url('/')}}">Página Inicial</a>
                 </li>
                 <li>

@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-<<<<<<< HEAD
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Contact - Business Casual - Start Bootstrap Theme</title>
+    <title>Contato - Bom Lugar Viagens</title>
 
     <!-- Bootstrap Core CSS -->
     <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">
@@ -29,14 +28,11 @@
     <script src={{asset("https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js")}}></script>
     <![endif]-->
 
-=======
     <meta charset="UTF-8">
     <title>Bom Lugar Viagens - Contato</title>
->>>>>>> cc7d958dcac2a1d201eaaf7d55c8b0c80b68ce29
 </head>
 
 <body>
-<<<<<<< HEAD
 
 <div class="brand">Bom Lugar Viagens</div>
 <div class="address-bar">Av. Princesa Isabel, 7 | Copacabana, RJ 22011-010 | (21) 2542-5001</div>
