@@ -11,11 +11,15 @@
 
     <title>Página Inicial - Bom Lugar Viagens</title>
 
+    <!-- Sign In css -->
+    <link href="http://getbootstrap.com/examples/signin/signin.css" rel="stylesheet">
+
     <!-- Bootstrap Core CSS -->
     <link href={{asset("css/bootstrap.min.css")}} rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href={{asset("css/business-casual.css")}} rel="stylesheet">
+    <link href={{asset("css/csscustom.css")}} rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -34,6 +38,47 @@
 
 <div class="brand">Bom Lugar Viagens</div>
 <div class="address-bar">Av. Princesa Isabel, 7 | Copacabana, RJ 22011-010 | (21) 2542-5001</div>
+
+        <div class="container">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalLogin">Sign Up or Sign In</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="ModalLogin" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Login</h4>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <form class="form-signin">
+                                    <label for="inputEmail" class="sr-only">Email</label>
+                                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                                    <label for="inputPassword" class="sr-only">Senha</label>
+                                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox" value="remember-me"> Remember me
+                                        </label>
+                                    </div>
+                                    <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
+                                    <a href="#">Ainda não é cadastrado? Cadastre-se</a>
+                                </form>
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
 <!-- Navigation -->
 <nav class="navbar navbar-default" role="navigation">
@@ -146,6 +191,7 @@
         interval: 5000 //changes the speed
     })
 </script>
+<!-- Sign In-->
 
 </body>
 

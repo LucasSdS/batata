@@ -29,7 +29,6 @@
     <![endif]-->
 
 </head>
-
 <body>
 
 <div class="brand">Bom Lugar Viagens</div>
