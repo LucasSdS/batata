@@ -95,18 +95,18 @@
             <a class="navbar-brand" href="/">Bom Lugar Viagens</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li class="col-sm-12 col-xs-12 col-md-3"> <!-- Colocar as rows, começar da menor -->
-                    <a href="{{url('/')}}">Página Inicial</a>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav row">
+                <li class="col-sm-3 col-xs-12 col-md-3"> <!-- Colocar as rows, começar da menor -->
+                    <a href="{{url('/')}}">Home</a>
                 </li>
-                <li class="col-sm-12 col-xs-12 col-md-3">
+                <li class="col-sm-3 col-xs-12 col-md-3">
                     <a href="{{url('sobre')}}">Sobre</a>
                 </li>
-                <li class="col-sm-12 col-xs-12 col-md-3">
+                <li class="col-sm-3 col-xs-12 col-md-3">
                     <a href="{{url('viagens')}}">Viagens</a>
                 </li>
-                <li class="col-sm-12 col-xs-12 col-md-3">
+                <li class="col-sm-3 col-xs-12 col-md-3">
                     <a href="{{url('contato')}}">Contato</a>
                 </li>
             </ul>
