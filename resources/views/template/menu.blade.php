@@ -28,7 +28,7 @@
                                 </label>
                             </div>
                             <button class="btn btn-lg btn-primary btn-block" type="submit">Entrar</button>
-                            <a href="#">Ainda não é cadastrado? Cadastre-se</a>
+                            <a href="#">Ainda nÃ£o Ã© cadastrado? Cadastre-se</a>
                         </form>
 
                     </div>
@@ -59,7 +59,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav row">
-                <li class="col-sm-3 col-xs-12 col-md-3"> <!-- Colocar as rows, começar da menor -->
+                <li class="col-sm-3 col-xs-12 col-md-3"> <!-- Colocar as rows, comeÃ§ar da menor -->
                     <a href="{{url('/')}}">Home</a>
                 </li>
                 <li class="col-sm-3 col-xs-12 col-md-3">
