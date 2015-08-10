@@ -4,3 +4,6 @@ Homestead.yaml
 .env
 
 app/Http/.idea/workspace.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
