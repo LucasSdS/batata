@@ -30,4 +30,3 @@ Route::get('sobre', function () {
 Route::get('quemsomos', function () {
     return view('quemsomos');
 });
-//>>>>>>> cc7d958dcac2a1d201eaaf7d55c8b0c80b68ce29
