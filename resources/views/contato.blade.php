@@ -78,3 +78,5 @@
 <!-- /.container -->
 
 @include('template.footer')
+
+@endsection
