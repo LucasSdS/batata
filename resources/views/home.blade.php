@@ -41,7 +41,7 @@
 
         <div class="container">
             <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#ModalLogin">Sign Up or Sign In</button>
+            <button type="button" class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#ModalLogin">Sign Up or Sign In</button>
 
             <!-- Modal -->
             <div class="modal fade" id="ModalLogin" role="dialog">
@@ -53,9 +53,9 @@
                             <h4 class="modal-title">Login</h4>
                         </div>
                         <div class="modal-body">
-                            <div class="container">
-
-                                <form class="form-signin">
+                            <div class="container row">
+                                <div class="col-sm-2 col-md-2 col-xs-2 col-lg-1"></div>
+                                <form class="form-signin col-sm-10 col-md-10 col-xs-10 col-lg-10">
                                     <label for="inputEmail" class="sr-only">Email</label>
                                     <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
                                     <label for="inputPassword" class="sr-only">Senha</label>
@@ -97,16 +97,16 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse row" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li> <!-- Colocar as rows, começar da menor -->
+                <li class="col-sm-12 col-xs-12 col-md-3"> <!-- Colocar as rows, começar da menor -->
                     <a href="{{url('/')}}">Página Inicial</a>
                 </li>
-                <li>
+                <li class="col-sm-12 col-xs-12 col-md-3">
                     <a href="{{url('sobre')}}">Sobre</a>
                 </li>
-                <li>
+                <li class="col-sm-12 col-xs-12 col-md-3">
                     <a href="{{url('viagens')}}">Viagens</a>
                 </li>
-                <li>
+                <li class="col-sm-12 col-xs-12 col-md-3">
                     <a href="{{url('contato')}}">Contato</a>
                 </li>
             </ul>
