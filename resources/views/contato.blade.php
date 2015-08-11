@@ -70,9 +70,8 @@
                         </div>
                         <div class="form-group col-lg-12">
                             <input type="hidden" name="save" value="contact">
-                            <div class="g-recaptcha" data-sitekey="6LeQFwsTAAAAAKsKlgs7N7w6KA05vX5_FcKIokV1"></div>
-                            <br>
-                            <button type="submit" class="btn btn-default">Enviar</button>
+                            <div class="g-recaptcha captcha" data-sitekey="6LeQFwsTAAAAAKsKlgs7N7w6KA05vX5_FcKIokV1"></div>
+                            <button type="submit" class="btn btn-default botao">Enviar</button>
                         </div>
                     </div>
                 </form>

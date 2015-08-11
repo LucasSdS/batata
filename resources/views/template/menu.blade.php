@@ -1,9 +1,10 @@
 <div class="brand">Bom Lugar Viagens</div>
 <div class="address-bar">Av. Princesa Isabel, 7 | Copacabana, RJ 22011-010 | (21) 2542-5001</div>
 
+<button type="button" class="btn btn-info btn-lg pull-right login" data-toggle="modal" data-target="#ModalLogin">Login</button>
 <div class="container">
     <!-- Trigger the modal with a button -->
-    <button type="button" class="btn btn-info btn-lg pull-right" data-toggle="modal" data-target="#ModalLogin">Login</button>
+
 
     <!-- Modal -->
     <div class="modal fade" id="ModalLogin" role="dialog">

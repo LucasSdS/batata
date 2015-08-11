@@ -1,3 +1,21 @@
 .modal-body {
     text-align: left;
 }
+
+.captcha{
+    float: left;
+}
+
+.botao{
+    right: 0;
+    float: right;
+}
+
+.login {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
