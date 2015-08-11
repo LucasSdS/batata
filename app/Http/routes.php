@@ -30,3 +30,9 @@ Route::get('viagens', function () {
 Route::get('sobre', function () {
     return view('sobre');
 });
+
+Route::get('teste', function () {
+    $posts=\App\Post::all();
+    return view('testando', ["posts"=>$posts]);
+});
+
