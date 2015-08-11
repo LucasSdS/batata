@@ -45,24 +45,24 @@
                 </h2>
                 <hr>
                 <p>Preencha esse formulário com algumas informações importantes para entrar em contato com a nossa central de atendimento. Você pode usar esse espaço para solucionar suas dúvidas ou enviar sugestões para melhorarmos o nosso serviço.</p>
-                <form role="form">
+                <form action="{{action('ContatoController@store')}}" role="form">
                     <div class="row">
                         <div class="form-group col-lg-4">
                             <label>Nome</label>
-                            <input type="text" class="form-control">
+                            <input type="text" name="Nome" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
                             <label>Email</label>
-                            <input type="email" class="form-control">
+                            <input type="email" name="Email" class="form-control">
                         </div>
                         <div class="form-group col-lg-4">
                             <label>Telefone</label>
-                            <input type="tel" class="form-control">
+                            <input type="tel" name="Telefone" class="form-control">
                         </div>
                         <div class="clearfix"></div>
                         <div class="form-group col-lg-12">
                             <label>Mensagem</label>
-                            <textarea class="form-control" rows="6"></textarea>
+                            <textarea class="form-control" name="Mensagem" rows="6"></textarea>
                         </div>
                         <div class="form-group col-lg-12">
                             <input type="hidden" name="save" value="contact">

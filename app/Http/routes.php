@@ -11,6 +11,10 @@
 |
 */
 
+
+Route::get('contato', ["as" => "FormContato", "uses" => "ContatoController@index"]);
+Route::post('contato', ["as" => "EnviaContato", "uses" => "ContatoController@store"]);
+
 Route::get('/', function () {
     return view('home');
 });
@@ -25,8 +29,4 @@ Route::get('viagens', function () {
 
 Route::get('sobre', function () {
     return view('sobre');
-});
-
-Route::get('quemsomos', function () {
-    return view('quemsomos');
 });
