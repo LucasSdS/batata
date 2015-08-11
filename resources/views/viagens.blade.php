@@ -1,5 +1,5 @@
 @extends('template.base')
-@section('titulo', 'Enviar Form Contato')
+@section('titulo', 'Viagens')
 
 @section('conteudo')
 

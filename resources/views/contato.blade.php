@@ -1,5 +1,9 @@
 @extends('template.base')
-@section('titulo', 'Enviar Form Contato')
+@section('titulo', 'Contato')
+
+<head>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
 
 @section('conteudo')
 
@@ -66,6 +70,8 @@
                         </div>
                         <div class="form-group col-lg-12">
                             <input type="hidden" name="save" value="contact">
+                            <div class="g-recaptcha" data-sitekey="6LeQFwsTAAAAAKsKlgs7N7w6KA05vX5_FcKIokV1"></div>
+                            <br>
                             <button type="submit" class="btn btn-default">Enviar</button>
                         </div>
                     </div>
