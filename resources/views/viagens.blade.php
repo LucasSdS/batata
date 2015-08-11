@@ -3,7 +3,7 @@
 
 @section('conteudo')
 
-    @include('template.menu')
+@include('template.menu')
 
 <div class="container">
 
@@ -61,3 +61,5 @@
 <!-- /.container -->
 
     @include('template.footer')
+
+    @endsection
